@@ -1,0 +1,61 @@
+
+
+.normal{
+  background-color: rgb(253, 253, 253);
+  cursor: pointer;
+  border: 1px solid;
+  padding: .4rem;
+  padding-left: 1rem;
+ line-height: 2;
+
+}
+
+.active{
+  background-color: rgb(24, 7, 7);
+  cursor: pointer;
+  border: 1px solid;
+  padding: .4rem;
+  line-height: 2;
+  color: gold;
+  padding-left: 1rem;
+  animation:moveup .2s ease-out;
+   box-shadow: 0 10px 20px rgb(20, 19, 19) ;
+}
+
+
+
+
+.accordion{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.content-box{
+
+    overflow: hidden;
+    background: #000000a2;
+    animation:moveup .2s ease-out;
+    font-size: 1.2rem;
+    color: #ffff;
+}
+
+
+
+.text{
+  margin:1rem;
+  padding: 1rem;
+}
+
+
+
+@keyframes moveup{
+  0%{
+    transform: translateY(-4%);
+  }
+
+  60%{
+    transform: translateY(-2%);
+  }
+
+
+}
