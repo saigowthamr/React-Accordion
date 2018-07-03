@@ -3,9 +3,6 @@ import "./App.css";
 
 class Text extends React.Component {
 
-  componentDidUpdate() {
-    console.log(this.props,"text")
-  }
 
   contentBox = () => {
     if (!this.props.text) {
@@ -25,11 +22,6 @@ class Text extends React.Component {
 }
 
 class Heading extends React.Component {
-
-  componentDidUpdate() {
-    console.log(this.props,"Heading")
-  }
-
 
   render() {
     const { heading, onShow, children } = this.props;
