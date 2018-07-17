@@ -2,7 +2,7 @@
   "name": "reactaccordion",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://saigowthamr.github.io/Gallery-using-Grid/React-Accordion",
+  "homepage": "https://saigowthamr.github.io/React-Accordion",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.4.1",
