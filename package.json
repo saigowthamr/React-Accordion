@@ -4,16 +4,23 @@
   "private": true,
   "dependencies": {
     "react": "^16.4.1",
+    "react-a11y": "^1.0.0",
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4"
   },
   "keywords": [
-    "react","accordion","react acccordion"
+    "react",
+    "accordion",
+    "react acccordion"
   ],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "react-axe": "^3.0.1"
   }
 }
